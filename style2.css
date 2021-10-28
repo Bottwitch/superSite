@@ -1,0 +1,55 @@
+.sanja{
+	color: orange;
+	background-color: lavender;
+}
+.carine{
+	color: cyan;
+	background-color: steelblue;
+}
+#para1{
+	color: peru;
+	background-color: grey;
+}
+
+
+
+.texul{color: blue;}
+
+.texol{color: limegreen; font-weight: bold; font-style: italic; font-size: 20px; font-family: Arial;}
+
+.titre{color: grey; text-shadow: 2px 2px rgb(41, 41, 41);}
+
+a{text-decoration-line: none;}
+
+img {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*body{background-color: deeppink;
+	color: green;
+	font-family: verdana, geneva, tahoma, sans-serif;
+	font-size: 30px;
+	text-align: center;	
+	background-color: darkturquoise;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 20px;
+	font-style: italic;
+	box-shadow: 3px 3px 0px rgb(130, 226, 243);
+
+}
+
+a:hover{text-decoration-line: none;}*/
+
+
+
+
+
+
+
+

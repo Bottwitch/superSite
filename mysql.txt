@@ -1,0 +1,73 @@
+
+
+
+create database nomBase character set 'utf8';
+
+drop database if exists nomBase; --> supprimer une base de données
+
+show databases; 
+
+user nomBase;  ---> change de base de données. 
+exit; --> sortir d'une base de données. 
+
+show warnings; ---> afficher les erreurs. 
+
+use nomBase;
+create table nomTable( firstname VARCHAR(255) NOT NULL); 
+
+
+
+rename table nomTable to nouveaNomTable;
+
+
+unsigned = uniquement les nombres positives. 
+
+
+
+not null --> obliger de mettre 
+
+null --> obliger de ne rien mettre 
+
+
+
+describe --> regarder la structure de la table. 
+
+
+
+alter table add age char(1); ---> modifie la structure de la table
+			drop
+
+alter table nomTable change nomColonne nouveauNomColonne varchar(50) not null;			
+
+
+alter table nomTable modify nomColonne text(NouvelleTaille); ---> permet de modifier le type de la colonne. (char, int, text, ETC...)
+
+
+insert into nomTABLE values (NULL, "nom", "prenom", "dateNaissance", "sexe", "ville");  ---> permet d'ajouter des valeurs dans la base de données. 
+
+truncate table users ---> permet de vider une table. 
+
+delete from nomtable condition; --> permet de supprimer sous certaine conditions. 
+
+update nomTable set champ=valeur where condition;
+
+
+update users set date_of_birth="1980/10/06" where name="beyonce"; ---> permet de modifier les donnees d'un utilisateur.
+
+
+
+le select sert uniquement a selectionnée a l'interieur de la bdd. 
+
+select name, lastname from users where id=1; ---> permet de selectionner des infos de table. 
+
+slecet * from users limit 0,2; ---> le "0"  je prends a partir de la ligne "0", et je prends "2" lignes a partir de 0. 
+
+select * from users order by lastname; --> affiche de façon croissant les nom de famille. 
+
+select * from users order by lastname desc; ---> affiche de façon decroissant les nom de famille. 
+
+select * from users where sexe="m" order by lastname desc; ---> Affiche tous les noms de familles des hommes en mode decroissant .
+
+
+
+

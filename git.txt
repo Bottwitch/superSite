@@ -1,0 +1,20 @@
+1) git init ---> initialiser le dossier, et pour ça il faur rentrer dans le dossier
+
+2) git add * ---> pour ajouter tous les fichiers
+
+3) git commit -m 'comm' ---> pour ajouter un commentaire
+
+4) git branch nombranche ---> créer une nouvelle branch 
+
+5) git checkout nombranche---> pour basculer d'une branche a une autre. 
+
+6) aller sur github et créer un nouveau repository.
+
+7) prendre les dernieres ligne que github nous donne. git remote add origin URL / git branch -M main / git push -u origin main 
+
+ 
+8) sur github on fork le fichier 
+
+9) git pull URL du fichier
+
+
